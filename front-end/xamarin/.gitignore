@@ -6,6 +6,9 @@ bin/
 obj/
 *.userprefs
 .packages
-
 # End of https://www.gitignore.io/api/xamarinstudio
+
+# Additional Option for me
+.vs/
+.DS_Store
 

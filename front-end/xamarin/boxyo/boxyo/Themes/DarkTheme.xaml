@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    x:Class="boxyo.Themes.DarkTheme"
+                    xmlns:local="clr-namespace:boxyo">
+
+    <Color x:Key="PageBackgroundColor">#353536</Color>
+    <Color x:Key="ControlBackgroundColor">#2E2E2E</Color>
+    <Color x:Key="NavigationBarColor">Teal</Color>
+    <Color x:Key="PrimaryColor">Teal</Color>
+    <Color x:Key="SecondaryColor">White</Color>
+    <Color x:Key="PrimaryTextColor">White</Color>
+    <Color x:Key="SecondaryTextColor">White</Color>
+    <Color x:Key="TertiaryTextColor">WhiteSmoke</Color>
+    <Color x:Key="TransparentColor">Transparent</Color>
+    <Color x:Key="BaseTextColor">#FFFFFF</Color>
+
+    <OnPlatform x:Key="EmailLoginButtonImage" 
+                x:TypeArguments="ImageSource"
+                iOS="{local:ImageResource boxyo.Images.favicon-email-dark.png}"
+                Android="{local:ImageResource boxyo.Images.favicon-email-dark.png}"
+                WinPhone="{local:ImageResource boxyo.Images.favicon-email-dark.png}" />
+
+    <OnPlatform x:Key="SelectLoginViewImage" 
+                x:TypeArguments="ImageSource"
+                iOS="{local:ImageResource boxyo.Images.title-dark.png}"
+                Android="{local:ImageResource boxyo.Images.title-dark.png}"
+                WinPhone="{local:ImageResource boxyo.Images.title-dark.png}" />
+</ResourceDictionary>

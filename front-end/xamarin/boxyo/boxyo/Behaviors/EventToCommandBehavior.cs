@@ -1,4 +1,4 @@
-﻿using SimpleMVVM.Behaviors.Base;
+﻿using boxyo.Behaviors.Base;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -9,7 +9,7 @@ using System.Text;
 using System.Windows.Input;
 using Xamarin.Forms;
 
-namespace SimpleMVVM.Behaviors
+namespace boxyo.Behaviors
 {
     public class EventToCommandBehavior : BindableBehavior<View>
     {

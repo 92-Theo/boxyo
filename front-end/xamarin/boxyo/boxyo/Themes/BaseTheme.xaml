@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    x:Class="boxyo.Themes.BaseTheme"
+                    xmlns:local="clr-namespace:boxyo">
+
+    <!-- SelectLoginView-->
+    <!-- Login Button Images-->
+    <OnPlatform x:Key="GoogleLoginButtonImage" 
+                x:TypeArguments="ImageSource"
+                iOS="{local:ImageResource boxyo.Images.favicon-google.png}"
+                Android="{local:ImageResource boxyo.Images.favicon-google.png}"
+                WinPhone="{local:ImageResource boxyo.Images.favicon-google.png}" />
+    <OnPlatform x:Key="NaverLoginButtonImage" 
+                x:TypeArguments="ImageSource"
+                iOS="{local:ImageResource boxyo.Images.favicon-naver.png}"
+                Android="{local:ImageResource boxyo.Images.favicon-naver.png}"
+                WinPhone="{local:ImageResource boxyo.Images.favicon-naver.png}" />
+    <OnPlatform x:Key="KakaoLoginButtonImage" 
+                x:TypeArguments="ImageSource"
+                iOS="{local:ImageResource boxyo.Images.favicon-kakao.png}"
+                Android="{local:ImageResource boxyo.Images.favicon-kakao.png}"
+                WinPhone="{local:ImageResource boxyo.Images.favicon-kakao.png}" />
+
+     <Style x:Key="LoginButtonStyle"
+               TargetType="Button">
+            <Setter Property="HorizontalOptions"
+                    Value="FillAndExpand"/>
+            <Setter Property="VerticalOptions"
+                    Value="FillAndExpand"/>
+            <Setter Property="CornerRadius"
+                    Value="8" />
+            <Setter Property="FontSize"
+                    Value="18"/>
+            <Setter Property="Padding"
+                    Value="0"/>
+            <Setter Property="TextColor"
+                    Value="{DynamicResource BaseTextColor}"/>
+            <Setter Property="BackgroundColor"
+                    Value="{DynamicResource ControlBackgroundColor}"/>
+        </Style>
+
+        <Style x:Key="NaverLoginButtonStyle" TargetType="Button"
+               BasedOn="{StaticResource LoginButtonStyle}">
+            <Setter Property="TextColor"
+                    Value="#000000"/>
+            <Setter Property="BackgroundColor"
+                    Value="#05CF5D"/>
+        </Style>
+
+        <Style x:Key="KakaoLoginButtonStyle" TargetType="Button"
+               BasedOn="{StaticResource LoginButtonStyle}">
+            <Setter Property="TextColor"
+                    Value="#000000"/>
+            <Setter Property="BackgroundColor"
+                    Value="#FFDC00"/>
+        </Style>
+
+        <!-- image is located left in button. -->
+        <Style x:Key="LoginButtonImageStyle" TargetType="Image">
+            <Setter Property="HorizontalOptions"
+                    Value="Center"/>
+            <Setter Property="VerticalOptions"
+                    Value="Center"/>
+            <Setter Property="HeightRequest"
+                    Value="32"/>
+            <Setter Property="WidthRequest"
+                    Value="32"/>
+        </Style>
+</ResourceDictionary>

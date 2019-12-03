@@ -1,12 +1,12 @@
-﻿using SimpleMVVM.Sorting;
+﻿using boxyo.Sorting;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Linq;
 using System.Collections.ObjectModel;
-using SimpleMVVM.Controls;
+using boxyo.Controls;
 
-namespace SimpleMVVM.Sorting
+namespace boxyo.Sorting
 {
     public static class SortData
     {

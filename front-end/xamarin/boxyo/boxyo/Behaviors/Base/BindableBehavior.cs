@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Xamarin.Forms;
 
-namespace SimpleMVVM.Behaviors.Base
+namespace boxyo.Behaviors.Base
 {
     public class BindableBehavior<T> : Behavior<T> where T : BindableObject
     {

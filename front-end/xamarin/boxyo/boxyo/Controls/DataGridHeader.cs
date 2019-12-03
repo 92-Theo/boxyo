@@ -1,12 +1,10 @@
-﻿using SimpleMVVM.Behaviors;
+﻿using boxyo.Behaviors;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using Xamarin.Forms;
-using SimpleMVVM.Sorting;
-using SimpleMVVM.ViewModels;
+using boxyo.Sorting;
+using boxyo.ViewModels;
 
-namespace SimpleMVVM.Controls
+namespace boxyo.Controls
 {
     public class DataGridHeader : Label
     {
@@ -37,7 +35,7 @@ namespace SimpleMVVM.Controls
                 Clicked?.Invoke(s, EventArgs.Empty);
             };
             this.GestureRecognizers.Add(tapGestureRecognizer);
-            
+
             etcb = new EventToCommandBehavior();
             etcb.EventName = "Clicked";
             etcb.CommandParameter = this;

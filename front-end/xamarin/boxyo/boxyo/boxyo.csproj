@@ -14,5 +14,27 @@
     <Folder Include="Views\" />
     <Folder Include="Services\" />
     <Folder Include="ViewModels\" />
+    <Folder Include="Views\Login\" />
+    <Folder Include="Images\" />
+    <Folder Include="Themes\" />
   </ItemGroup>
+    
+  <ItemGroup>
+    <None Remove="Images\title-light.png" />
+    <None Remove="Images\title-dark.png" />
+    <None Remove="Images\favicon-google.png" />
+    <None Remove="Images\favicon-naver.png" />
+    <None Remove="Images\favicon-kakao.png" />
+    <None Remove="Images\favicon-email-light.png" />
+    <None Remove="Images\favicon-email-dark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\title-light.png" />
+    <EmbeddedResource Include="Images\title-dark.png" />
+    <EmbeddedResource Include="Images\favicon-google.png" />
+    <EmbeddedResource Include="Images\favicon-naver.png" />
+    <EmbeddedResource Include="Images\favicon-kakao.png" />
+    <EmbeddedResource Include="Images\favicon-email-light.png" />
+    <EmbeddedResource Include="Images\favicon-email-dark.png" />
+  </ItemGroup>                 
 </Project>

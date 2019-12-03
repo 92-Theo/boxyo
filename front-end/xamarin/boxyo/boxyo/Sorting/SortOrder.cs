@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SimpleMVVM.Sorting
+namespace boxyo.Sorting
 {
     public enum SortingOrder
     {

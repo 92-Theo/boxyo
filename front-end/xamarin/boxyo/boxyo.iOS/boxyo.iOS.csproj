@@ -71,45 +71,24 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon1024.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon180.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon167.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon152.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon120.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon87.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon80.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon76.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon60.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon58.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon40.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon29.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
-      <Visible>false</Visible>
-    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\appicon-40-40.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\appicon-60-60.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\appicon-58-58.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\appicon-87-87.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\appicon-80-80.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\appicon-120-120.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\appicon-120-120-1.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\appicon-180-180.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\appicon-20-20.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\appicon-40-40-1.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\appicon-29-29.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\appicon-58-58-1.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\appicon-40-40-2.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\appicon-80-80-1.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\appicon-76-76.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\appicon-152-152.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\appicon-167-167.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\appicon-1024-1024.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -129,5 +108,8 @@
       <Project>{B967CF98-52A7-448D-BCB0-7F4DCC4E0DF8}</Project>
       <Name>boxyo</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\icon-launchscreen.png" />
   </ItemGroup>
 </Project>

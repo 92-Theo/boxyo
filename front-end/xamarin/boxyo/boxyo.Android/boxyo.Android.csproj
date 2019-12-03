@@ -101,7 +101,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\boxyo\boxyo.csproj">
-      <Project>{DBD89DB8-1D64-41FB-B7DA-B3EF7CFCFA7C}</Project>
+      <Project>{B967CF98-52A7-448D-BCB0-7F4DCC4E0DF8}</Project>
       <Name>boxyo</Name>
     </ProjectReference>
   </ItemGroup>

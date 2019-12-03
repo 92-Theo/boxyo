@@ -17,6 +17,7 @@
     <Folder Include="Views\Login\" />
     <Folder Include="Images\" />
     <Folder Include="Themes\" />
+    <Folder Include="Resx\" />
   </ItemGroup>
     
   <ItemGroup>
@@ -37,4 +38,26 @@
     <EmbeddedResource Include="Images\favicon-email-light.png" />
     <EmbeddedResource Include="Images\favicon-email-dark.png" />
   </ItemGroup>                 
+  <ItemGroup>
+    <EmbeddedResource Update="Resx\AppResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resx\AppResources.en-ID.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.id.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resx\AppResources.ko-KR.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.ko.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Resx\AppResources.Designer.cs">
+      <DependentUpon>AppResources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resx\AppResources.ko.Designer.cs">
+      <DependentUpon>AppResources.ko.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
 </Project>

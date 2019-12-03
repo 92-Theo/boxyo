@@ -2,7 +2,7 @@
 <ContentPage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:boxyo"
+    xmlns:resources="clr-namespace:boxyo.Resx"
     x:Class="boxyo.Views.Login.SelectLoginView"
     NavigationPage.HasNavigationBar="False"
     BackgroundColor="{DynamicResource PageBackgroundColor}">
@@ -46,10 +46,10 @@
                     <ColumnDefinition Width="*"></ColumnDefinition>
                     <ColumnDefinition Width="20"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
-
+               
                 <!-- Goolge Login -->
                 <Button Grid.Row="1" Grid.Column="1"
-                        Text="구글로 로그인"
+                        Text="{x:Static resources:AppResources.GoogleLoginButton}"
                         Style="{StaticResource LoginButtonStyle}"/>
                 <Grid Grid.Row="1"
                     Grid.Column="1">
@@ -64,7 +64,7 @@
                 <!-- Naver Login -->
                 <Button Grid.Row="3"
                     Grid.Column="1"
-                    Text="네이버로 로그인"
+                    Text="{x:Static resources:AppResources.NaverLoginButton}"
                     Style="{StaticResource NaverLoginButtonStyle}" />
                 <Grid Grid.Row="3"
                     Grid.Column="1">
@@ -79,7 +79,7 @@
                 <!-- Kakao Login -->
                 <Button Grid.Row="5"
                     Grid.Column="1"
-                    Text="카카오톡으로 로그인"
+                    Text="{x:Static resources:AppResources.KakaoLoginButton}"
                     Style="{StaticResource KakaoLoginButtonStyle}" />
                 <Grid Grid.Row="5"
                     Grid.Column="1">
@@ -94,7 +94,7 @@
                 <!-- Email Login -->
                 <Button Grid.Row="7"
                     Grid.Column="1"
-                    Text="이메일로 로그인"
+                    Text="{x:Static resources:AppResources.EmailLoginButton}"
                     Style="{StaticResource LoginButtonStyle}" />
                 <Grid Grid.Row="7"
                     Grid.Column="1">

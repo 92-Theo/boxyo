@@ -111,7 +111,6 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\icon-launchscreen.png" />
-    <BundleResource Include="Resources\Lobster-Regular.ttf" />
     <BundleResource Include="Resources\BMHANNAAir.ttf" />
   </ItemGroup>
 </Project>

@@ -1,6 +1,6 @@
 ﻿using Xamarin.Forms;
 using boxyo.Views;
-
+using System.Drawing;
 
 namespace boxyo
 {
@@ -9,9 +9,7 @@ namespace boxyo
         public App()
         {
             InitializeComponent();
-
-            // MainPage = new MainPage();
-            MainPage = new NavigationPage(new Views.Login.SelectLoginView());
+            MainPage = new NavigationPage(new Views.Sign.SignInView());
         }
 
         protected override void OnStart()

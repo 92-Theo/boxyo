@@ -14,10 +14,11 @@
     <Folder Include="Views\" />
     <Folder Include="Services\" />
     <Folder Include="ViewModels\" />
-    <Folder Include="Views\Login\" />
+    <Folder Include="Views\Sign\" />
     <Folder Include="Images\" />
     <Folder Include="Themes\" />
     <Folder Include="Resx\" />
+    <Folder Include="Extenstions\" />
   </ItemGroup>
     
   <ItemGroup>
@@ -28,6 +29,7 @@
     <None Remove="Images\favicon-kakao.png" />
     <None Remove="Images\favicon-email-light.png" />
     <None Remove="Images\favicon-email-dark.png" />
+    <None Remove="Fonts\BMHANNAAir_ttf.ttf" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Images\title-light.png" />
@@ -39,10 +41,6 @@
     <EmbeddedResource Include="Images\favicon-email-dark.png" />
   </ItemGroup>                 
   <ItemGroup>
-    <EmbeddedResource Update="Resx\AppResources.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
     <EmbeddedResource Update="Resx\AppResources.en-ID.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>AppResources.id.Designer.cs</LastGenOutput>
@@ -50,6 +48,10 @@
     <EmbeddedResource Update="Resx\AppResources.ko-KR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>AppResources.ko.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resx\AppResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -59,5 +61,13 @@
     <Compile Update="Resx\AppResources.ko.Designer.cs">
       <DependentUpon>AppResources.ko.resx</DependentUpon>
     </Compile>
+    <Compile Update="Resx\AppResources.Designer.cs">
+      <DependentUpon>AppResources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Drawing.Common">
+      <HintPath>..\..\..\..\..\..\..\..\..\Library\Frameworks\Xamarin.Android.framework\Versions\10.0.3.0\lib\xamarin.android\xbuild-frameworks\MonoAndroid\v1.0\Facades\System.Drawing.Common.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>

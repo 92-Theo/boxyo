@@ -34,5 +34,12 @@
 	<string>boxyo</string>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>BMHANNAAir_ttf.ttf</string>
+		<string>Lobster-Regular.ttf</string>
+		<string>BMHANNAAir.ttf</string>
+		<string>BMHANNA_Air.ttf</string>
+	</array>
 </dict>
 </plist>

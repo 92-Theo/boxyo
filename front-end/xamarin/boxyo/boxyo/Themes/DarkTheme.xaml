@@ -4,17 +4,15 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
                     x:Class="boxyo.Themes.DarkTheme"
                     xmlns:local="clr-namespace:boxyo">
-
-    <Color x:Key="PageBackgroundColor">#353536</Color>
-    <Color x:Key="ControlBackgroundColor">#2E2E2E</Color>
-    <Color x:Key="NavigationBarColor">Teal</Color>
-    <Color x:Key="PrimaryColor">Teal</Color>
+    <Color x:Key="ViewColor">#353536</Color>
+    <Color x:Key="NavigationBarColor">#2E2E2E</Color>
+    <Color x:Key="PrimaryColor">#2E2E2E</Color>
     <Color x:Key="SecondaryColor">White</Color>
+    <Color x:Key="TertiaryColor">#353536</Color>
     <Color x:Key="PrimaryTextColor">White</Color>
-    <Color x:Key="SecondaryTextColor">White</Color>
-    <Color x:Key="TertiaryTextColor">WhiteSmoke</Color>
+    <Color x:Key="SecondaryTextColor">Black</Color>
+    <Color x:Key="TertiaryTextColor">#2E2E2E</Color>
     <Color x:Key="TransparentColor">Transparent</Color>
-    <Color x:Key="BaseTextColor">#FFFFFF</Color>
 
     <OnPlatform x:Key="EmailLoginButtonImage" 
                 x:TypeArguments="ImageSource"

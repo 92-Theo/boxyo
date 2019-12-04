@@ -10,40 +10,36 @@
         <ResourceDictionary Source="Themes/DarkTheme.xaml" />
         <ResourceDictionary Source="Themes/BaseTheme.xaml" />
 
+        <!-- Global -->
+        <!-- Font -->
+        <OnPlatform x:TypeArguments="x:String" x:Key="NormalFont">
+            <On Platform="Android" Value="BMHANNAAir.ttf#BMHANNAAir" />
+            <On Platform="iOS" Value="BMHANNAAir" />
+        </OnPlatform>
+
+        <Style TargetType="Button">
+            <Setter Property="FontFamily" Value="{StaticResource NormalFont}" />
+        </Style>
+        <Style TargetType="Entry">
+            <Setter Property="FontFamily" Value="{StaticResource NormalFont}" />
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="FontFamily" Value="{StaticResource NormalFont}" />
+        </Style>
+        <!-- Page Color-->
         <Style TargetType="NavigationPage">
             <Setter Property="BarBackgroundColor"
                     Value="{DynamicResource NavigationBarColor}" />
             <Setter Property="BarTextColor"
-                    Value="{DynamicResource SecondaryColor}" />
+                    Value="{DynamicResource PrimaryColor}" />
+
+        </Style>
+        <Style TargetType="ContentPage" x:Key="ViewStyle">
+            <Setter Property="BackgroundColor"
+                    Value="{DynamicResource ViewColor}" />
         </Style>
 
-        <Style x:Key="LargeLabelStyle"
-               TargetType="Label">
-            <Setter Property="TextColor"
-                    Value="{DynamicResource SecondaryTextColor}" />
-            <Setter Property="FontSize"
-                    Value="30" />
-        </Style>
-
-        <Style x:Key="MediumLabelStyle"
-               TargetType="Label">
-            <Setter Property="TextColor"
-                    Value="{DynamicResource PrimaryTextColor}" />
-            <Setter Property="FontSize"
-                    Value="25" />
-        </Style>
-
-        <Style x:Key="SmallLabelStyle"
-               TargetType="Label">
-            <Setter Property="TextColor"
-                    Value="{DynamicResource TertiaryTextColor}" />
-            <Setter Property="FontSize"
-                    Value="15" />
-        </Style>
-
-
-       
-
+        
     </Application.Resources>
 
 </Application>

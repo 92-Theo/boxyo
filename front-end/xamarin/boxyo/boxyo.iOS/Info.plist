@@ -41,5 +41,7 @@
 		<string>BMHANNAAir.ttf</string>
 		<string>BMHANNA_Air.ttf</string>
 	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
 </dict>
 </plist>

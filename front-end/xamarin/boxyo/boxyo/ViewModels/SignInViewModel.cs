@@ -35,12 +35,12 @@ namespace boxyo.ViewModels
             IsControlEnable = false;
             (SignInCommand as Command).ChangeCanExecute();
 
-
             result = await Task.Run(() => SignInProcess());
 
             if (result)
             {
-                Application.Current.MainPage.Navigation.InsertPageBefore(new Views.HomeView(), Application.Current.MainPage.Navigation.NavigationStack.Last());
+                Application.Current.MainPage.Navigation.InsertPageBefore(new Views.HomeView(),
+                    Application.Current.MainPage.Navigation.NavigationStack.Last());
                 await Application.Current.MainPage.Navigation.PopAsync();
             }
 
